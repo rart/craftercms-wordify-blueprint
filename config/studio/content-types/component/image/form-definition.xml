@@ -99,7 +99,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1584804792091</title>
+			<title>Default Section Title 1584805073235</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -197,5 +197,36 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>img-desktop-upload</type>
+					<id>desktopImage</id>
+					<title>Desktop Image</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>repoImage</id>
+					<title>Repo Image</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
