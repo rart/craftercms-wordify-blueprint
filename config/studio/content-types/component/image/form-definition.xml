@@ -26,7 +26,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Image Properties</title>
+			<title>System Fields</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -99,7 +99,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1584805073235</title>
+			<title>Content Fields</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
