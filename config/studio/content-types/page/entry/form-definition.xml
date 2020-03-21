@@ -26,7 +26,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Page Settings</title>
+			<title>System Fields</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -145,7 +145,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Main Content</title>
+			<title>Content Fields</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
