@@ -113,7 +113,7 @@
             <div class="col-md-12">
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_10.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -128,7 +128,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_11.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -143,7 +143,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_12.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -158,7 +158,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_9.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -173,7 +173,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_8.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -188,7 +188,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_7.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -203,7 +203,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_6.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -218,7 +218,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_5.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">
@@ -233,7 +233,7 @@
               <!-- END post -->
 
               <div class="post-entry-horzontal">
-                <a href="/blog-single">
+                <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
                   <div class="image" style="background-image: url(/static-assets/images/img_4.jpg);"></div>
                   <span class="text">
                     <div class="post-meta">

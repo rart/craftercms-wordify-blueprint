@@ -95,7 +95,7 @@
 
           <div class="owl-carousel owl-theme home-slider">
             <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_1.jpg'); ">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_1.jpg'); ">
                 <div class="text half-to-full">
                   <span class="category mb-5">Food</span>
                   <div class="post-meta">
@@ -111,7 +111,7 @@
               </a>
             </div>
             <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_2.jpg'); ">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_2.jpg'); ">
                 <div class="text half-to-full">
                   <span class="category mb-5">Travel</span>
                   <div class="post-meta">
@@ -127,7 +127,7 @@
               </a>
             </div>
             <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_3.jpg'); ">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_3.jpg'); ">
                 <div class="text half-to-full">
                   <span class="category mb-5">Sports</span>
                   <div class="post-meta">
@@ -164,7 +164,7 @@
         <div class="col-md-12 col-lg-8 main-content">
           <div class="row">
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_5.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -177,7 +177,7 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_6.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -191,7 +191,7 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_7.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -204,7 +204,7 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_8.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -218,7 +218,7 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_9.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -231,7 +231,7 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_10.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -245,7 +245,7 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_11.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
@@ -258,7 +258,7 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_12.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
