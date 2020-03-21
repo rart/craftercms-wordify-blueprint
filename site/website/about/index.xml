@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/about</content-type>
+	<content-type>/page/about</content-type>
+	<display-template>/templates/web/about.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1ddb</objectGroupId>
+	<objectId>1ddb9b92-5968-bcfd-7ebe-85b54596eb00</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>about</folder-name>
+	<internal-name>About</internal-name>
+	<navLabel>About</navLabel>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>1000</orderDefault_f>
+	<createdDate>2020-03-21T11:22:32.098Z</createdDate>
+	<createdDate_dt>2020-03-21T11:22:32.098Z</createdDate_dt>
+	<lastModifiedDate>2020-03-21T11:22:32.098Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T11:22:32.098Z</lastModifiedDate_dt>
+</page>
