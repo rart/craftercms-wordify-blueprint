@@ -88,6 +88,13 @@
 				</field>
 			</fields>
 		</section>
+		<section>
+			<title>Content Fields</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+			</fields>
+		</section>
 	</sections>
 	<datasources>	</datasources>
 </form>
