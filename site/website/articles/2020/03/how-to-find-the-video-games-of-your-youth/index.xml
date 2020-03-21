@@ -17,6 +17,24 @@
 	<mainImage_s>/static-assets/images/img_1.jpg</mainImage_s>
 	<createdDate>2020-03-21T15:18:28.488Z</createdDate>
 	<createdDate_dt>2020-03-21T15:18:28.488Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T15:23:40.211Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T15:23:40.211Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:30:04.131Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:30:04.131Z</lastModifiedDate_dt>
+	<content_o item-list="true">	<item datasource="richTextSections" inline="true">	<key>543ab594-1eb0-4d66-6536-8fb3c0b90b62</key>
+	<value>Text Piece One</value>
+<component id="543ab594-1eb0-4d66-6536-8fb3c0b90b62">
+	<content-type>/component/rich_text</content-type>
+	<display-template>/templates/web/components/rich_text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>543a</objectGroupId>
+	<objectId>543ab594-1eb0-4d66-6536-8fb3c0b90b62</objectId>
+	<file-name>543ab594-1eb0-4d66-6536-8fb3c0b90b62.xml</file-name>
+	<internal-name>Text Piece One</internal-name>
+	<content_html>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam quas inventore, ut iure iste modi eos adipisci ad ea itaque labore earum autem nobis et numquam, minima eius. Nam eius, non unde ut aut sunt eveniet rerum repellendus porro.&lt;/p&gt;</content_html>
+	<createdDate>2020-03-21T17:30:17.303Z</createdDate>
+	<createdDate_dt>2020-03-21T17:30:17.303Z</createdDate_dt>
+	<lastModifiedDate>2020-03-21T17:30:17.303Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:30:17.303Z</lastModifiedDate_dt>
+</component>
+	</item></content_o>
 </page>
