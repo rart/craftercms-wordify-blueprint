@@ -17,19 +17,21 @@
       <div class="row blog-entries element-animate">
 
         <div class="col-md-12 col-lg-8 main-content">
-          <img src="/static-assets/images/img_10.jpg" alt="Image" class="img-fluid mb-5">
+          <img src="${contentModel.mainImage_s}" alt="" class="img-fluid mb-5">
           <div class="post-meta">
             <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib" class="mr-2"> Colorlib</span>&bullet;
             <span class="mr-2">March 15, 2018 </span> &bullet;
             <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
           </div>
-          <h1 class="mb-4">There’s a Cool New Way for Men to Wear Socks and Sandals</h1>
+          <h1 class="mb-4">${contentModel.headline_s}</h1>
           <a class="category mb-5" href="#">Food</a> <a class="category mb-5" href="#">Travel</a>
 
           <div class="post-content-body">
+            <#if contentModel.content_o?? && contentModel.content_o.item??>
               <#list contentModel.content_o.item as component>
                   <@renderComponent component=component />
               </#list>
+            </#if>
           </div>
 
 
