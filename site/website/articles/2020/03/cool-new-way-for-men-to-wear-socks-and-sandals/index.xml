@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-03-21T11:29:30.420Z</createdDate>
 	<createdDate_dt>2020-03-21T11:29:30.420Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T17:01:22.838Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T17:01:22.838Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:12:31.594Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:12:31.594Z</lastModifiedDate_dt>
 	<mainImage_s>/static-assets/images/img_12.jpg</mainImage_s>
 	<pageTitle_s>Cool New Way for Men to Wear Socks and Sandals</pageTitle_s>
 	<headline_s>There’s a Cool New Way for Men to Wear Socks and S</headline_s>
@@ -58,8 +58,27 @@
 	<internal-name>Side by side images</internal-name>
 	<createdDate>2020-03-21T16:12:28.213Z</createdDate>
 	<createdDate_dt>2020-03-21T16:12:28.213Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T17:01:36.840Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T17:01:36.840Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:12:37.147Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:12:37.147Z</lastModifiedDate_dt>
+	<testImage_o item-list="true">	<item datasource="images" inline="true">	<key>280d6aa8-47f9-fe27-94c3-637657c789db</key>
+	<value>Shore</value>
+<component id="280d6aa8-47f9-fe27-94c3-637657c789db">
+	<content-type>/component/image</content-type>
+	<display-template>/templates/web/components/image.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>280d</objectGroupId>
+	<objectId>280d6aa8-47f9-fe27-94c3-637657c789db</objectId>
+	<file-name>280d6aa8-47f9-fe27-94c3-637657c789db.xml</file-name>
+	<internal-name>Shore</internal-name>
+	<alternativeText_s>Shore</alternativeText_s>
+	<image_s>/static-assets/images/img_7.jpg</image_s>
+	<createdDate>2020-03-21T17:12:39.870Z</createdDate>
+	<createdDate_dt>2020-03-21T17:12:39.870Z</createdDate_dt>
+	<lastModifiedDate>2020-03-21T17:12:39.870Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:12:39.870Z</lastModifiedDate_dt>
+</component>
+	</item></testImage_o>
 </component>
 	</item>	<item datasource="richTextSections" inline="true">	<key>0aa38516-44c6-c092-8a89-97ed01f25041</key>
 	<value>Quibusdam autem</value>
