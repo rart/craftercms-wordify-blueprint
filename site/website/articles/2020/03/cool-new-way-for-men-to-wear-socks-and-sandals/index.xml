@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-03-21T11:29:30.420Z</createdDate>
 	<createdDate_dt>2020-03-21T11:29:30.420Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T16:34:38.576Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T16:34:38.576Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:01:22.838Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:01:22.838Z</lastModifiedDate_dt>
 	<mainImage_s>/static-assets/images/img_12.jpg</mainImage_s>
 	<pageTitle_s>Cool New Way for Men to Wear Socks and Sandals</pageTitle_s>
 	<headline_s>There’s a Cool New Way for Men to Wear Socks and S</headline_s>
@@ -48,20 +48,8 @@
 	<objectGroupId>1439</objectGroupId>
 	<objectId>14397648-d047-fcea-7497-314af89d1a3e</objectId>
 	<columns_o item-list="true">	<item>	<columnSize_s>12</columnSize_s>
-	<content_o>		<item><key>8c324667-c891-615d-8452-eddc02d728e7</key>
+	<content_o>		<item><key>688cc21f-7021-b1f9-daa4-ee2dbdb9bd19</key>
 <value>Shore</value>
-<datasource>images</datasource>
-<inline>true</inline>
-		</item></content_o>
-	</item>	<item>	<columnSize_s>6</columnSize_s>
-	<content_o>		<item><key>ea9caf6a-76da-9e1e-600e-e377507b408a</key>
-<value>People on rocks</value>
-<datasource>images</datasource>
-<inline>true</inline>
-		</item></content_o>
-	</item>	<item>	<columnSize_s>6</columnSize_s>
-	<content_o>		<item><key>d7713eb1-4ce6-340d-d711-7d865cfb6ba2</key>
-<value>Water</value>
 <datasource>images</datasource>
 <inline>true</inline>
 		</item></content_o>
@@ -70,8 +58,8 @@
 	<internal-name>Side by side images</internal-name>
 	<createdDate>2020-03-21T16:12:28.213Z</createdDate>
 	<createdDate_dt>2020-03-21T16:12:28.213Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T16:34:53.656Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T16:34:53.656Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:01:36.840Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:01:36.840Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="richTextSections" inline="true">	<key>0aa38516-44c6-c092-8a89-97ed01f25041</key>
 	<value>Quibusdam autem</value>
