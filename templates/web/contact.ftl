@@ -46,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Business</a>
@@ -78,7 +78,7 @@
               <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact</a>
+              <a class="nav-link active" href="/contact">Contact</a>
             </li>
           </ul>
 
@@ -88,209 +88,44 @@
   </header>
   <!-- END header -->
 
-  <section class="site-section pt-5 pb-5">
+
+  <section class="site-section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="owl-carousel owl-theme home-slider">
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_1.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Food</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_2.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Travel</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_3.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Sports</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-
-  </section>
-  <!-- END section -->
-
-  <section class="site-section py-sm">
-    <div class="container">
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-md-6">
-          <h2 class="mb-4">Latest Posts</h2>
+          <h1>Contact Me</h1>
         </div>
       </div>
       <div class="row blog-entries">
         <div class="col-md-12 col-lg-8 main-content">
-          <div class="row">
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_5.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_6.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
 
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_7.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
+          <form action="#" method="post">
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control ">
+              </div>
+              <div class="col-md-12 form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" class="form-control ">
+              </div>
+              <div class="col-md-12 form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control ">
+              </div>
             </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_8.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="message">Write Message</label>
+                <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+              </div>
             </div>
-
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_9.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+              </div>
             </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_10.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_11.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_12.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="row mt-5">
-            <div class="col-md-12 text-center">
-              <nav aria-label="Page navigation" class="text-center">
-                <ul class="pagination">
-                  <li class="page-item  active"><a class="page-link" href="#">&lt;</a></li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">4</a></li>
-                  <li class="page-item"><a class="page-link" href="#">5</a></li>
-                  <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-
-
-
+          </form>
 
 
         </div>
@@ -311,9 +146,9 @@
             <div class="bio text-center">
               <img src="/static-assets/images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="bio-body">
-                <h2>David Craig</h2>
+                <h2>Meagan Smith</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
-                <p><a href="#" class="btn btn-primary btn-sm rounded">Read my bio</a></p>
+                <p><a href="#" class="btn btn-primary btn-sm">Read my bio</a></p>
                 <p class="social">
                   <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
@@ -332,9 +167,10 @@
                   <a href="">
                     <img src="/static-assets/images/img_2.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
                     </div>
                   </a>
@@ -343,9 +179,10 @@
                   <a href="">
                     <img src="/static-assets/images/img_4.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
                     </div>
                   </a>
@@ -354,9 +191,10 @@
                   <a href="">
                     <img src="/static-assets/images/img_12.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
-                        <span class="mr-2">March 15, 2018 </span>
+                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                       </div>
                     </div>
                   </a>
@@ -492,7 +330,7 @@
         <div class="col-md-12 text-center">
           <p class="small">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>

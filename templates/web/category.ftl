@@ -46,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Business</a>
@@ -64,7 +64,7 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/category" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+              <a class="nav-link dropdown-toggle active" href="/category" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
               <div class="dropdown-menu" aria-labelledby="dropdown05">
                 <a class="dropdown-item" href="/category">Lifestyle</a>
                 <a class="dropdown-item" href="/category">Food</a>
@@ -88,187 +88,165 @@
   </header>
   <!-- END header -->
 
-  <section class="site-section pt-5 pb-5">
+
+  <section class="site-section pt-5">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="owl-carousel owl-theme home-slider">
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_1.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Food</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_2.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Travel</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/blog-single" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_3.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Sports</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-
-  </section>
-  <!-- END section -->
-
-  <section class="site-section py-sm">
-    <div class="container">
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-md-6">
-          <h2 class="mb-4">Latest Posts</h2>
+          <h2 class="mb-4">Category: Food</h2>
         </div>
       </div>
       <div class="row blog-entries">
         <div class="col-md-12 col-lg-8 main-content">
-          <div class="row">
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_5.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_6.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
+          <div class="row mb-5 mt-5">
 
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_7.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_8.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
+            <div class="col-md-12">
 
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_9.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_10.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_10.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
 
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_11.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <a href="/blog-single" class="blog-entry element-animate" data-animate-effect="fadeIn">
-                <img src="/static-assets/images/img_12.jpg" alt="Image placeholder">
-                <div class="blog-content-body">
-                  <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                  </div>
-                  <h2>How to Find the Video Games of Your Youth</h2>
-                </div>
-              </a>
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_11.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_12.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_9.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_8.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_7.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_6.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_5.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
+              <div class="post-entry-horzontal">
+                <a href="/blog-single">
+                  <div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url(/static-assets/images/img_4.jpg);"></div>
+                  <span class="text">
+                    <div class="post-meta">
+                      <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="mr-2">Food</span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
+                  </span>
+                </a>
+              </div>
+              <!-- END post -->
+
             </div>
           </div>
 
@@ -290,9 +268,6 @@
 
 
 
-
-
-
         </div>
 
         <!-- END main-content -->
@@ -309,9 +284,9 @@
           <!-- END sidebar-box -->
           <div class="sidebar-box">
             <div class="bio text-center">
-              <img src="/static-assets/images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
+              <img src="/static-assets/images/person_2.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="bio-body">
-                <h2>David Craig</h2>
+                <h2>Craig David</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
                 <p><a href="#" class="btn btn-primary btn-sm rounded">Read my bio</a></p>
                 <p class="social">
@@ -332,7 +307,7 @@
                   <a href="">
                     <img src="/static-assets/images/img_2.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
                         <span class="mr-2">March 15, 2018 </span>
                       </div>
@@ -343,7 +318,7 @@
                   <a href="">
                     <img src="/static-assets/images/img_4.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
                         <span class="mr-2">March 15, 2018 </span>
                       </div>
@@ -354,7 +329,7 @@
                   <a href="">
                     <img src="/static-assets/images/img_12.jpg" alt="Image placeholder" class="mr-4">
                     <div class="text">
-                      <h4>How to Find the Video Games of Your Youth</h4>
+                      <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
                         <span class="mr-2">March 15, 2018 </span>
                       </div>
@@ -492,7 +467,7 @@
         <div class="col-md-12 text-center">
           <p class="small">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
