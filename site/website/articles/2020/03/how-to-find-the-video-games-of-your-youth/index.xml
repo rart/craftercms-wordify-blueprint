@@ -17,8 +17,8 @@
 	<mainImage_s>/static-assets/images/img_1.jpg</mainImage_s>
 	<createdDate>2020-03-21T15:18:28.488Z</createdDate>
 	<createdDate_dt>2020-03-21T15:18:28.488Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T17:30:04.131Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T17:30:04.131Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-21T17:31:19.991Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:31:19.991Z</lastModifiedDate_dt>
 	<content_o item-list="true">	<item datasource="richTextSections" inline="true">	<key>543ab594-1eb0-4d66-6536-8fb3c0b90b62</key>
 	<value>Text Piece One</value>
 <component id="543ab594-1eb0-4d66-6536-8fb3c0b90b62">
@@ -35,6 +35,29 @@
 	<createdDate_dt>2020-03-21T17:30:17.303Z</createdDate_dt>
 	<lastModifiedDate>2020-03-21T17:30:17.303Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-03-21T17:30:17.303Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="responsiveColumns" inline="true">	<key>efd7b2b1-5c7c-d5b4-c909-f4024f5c5825</key>
+	<value>Rich Text Two</value>
+<component id="efd7b2b1-5c7c-d5b4-c909-f4024f5c5825">
+	<content-type>/component/responsive_columns</content-type>
+	<display-template>/templates/web/components/responsive_columns.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>efd7</objectGroupId>
+	<objectId>efd7b2b1-5c7c-d5b4-c909-f4024f5c5825</objectId>
+	<columns_o item-list="true">	<item>	<columnSize_s>6</columnSize_s>
+	<content_o>		<item><key>fa35dbbf-78ac-60e5-7b86-646937f59c96</key>
+<value>Rich Text Two</value>
+<datasource>richTextSection</datasource>
+<inline>true</inline>
+		</item></content_o>
+	</item></columns_o>
+	<file-name>efd7b2b1-5c7c-d5b4-c909-f4024f5c5825.xml</file-name>
+	<internal-name>Rich Text Two</internal-name>
+	<createdDate>2020-03-21T17:31:45.794Z</createdDate>
+	<createdDate_dt>2020-03-21T17:31:45.794Z</createdDate_dt>
+	<lastModifiedDate>2020-03-21T17:31:45.794Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-21T17:31:45.794Z</lastModifiedDate_dt>
 </component>
 	</item></content_o>
 </page>
