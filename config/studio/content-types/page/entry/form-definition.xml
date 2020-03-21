@@ -210,12 +210,12 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value>0</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>10</value>
 							<type>int</type>
 						</property>
 						<property>
