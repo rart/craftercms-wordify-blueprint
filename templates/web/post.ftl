@@ -9,84 +9,7 @@
 
 <div class="wrap">
 
-  <header role="banner">
-    <div class="top-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-9 social">
-            <a href="#"><span class="fa fa-twitter"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-            <a href="#"><span class="fa fa-youtube-play"></span></a>
-          </div>
-          <div class="col-3 search-top">
-            <!-- <a href="#"><span class="fa fa-search"></span></a> -->
-            <form action="#" class="search-top-form">
-              <span class="icon fa fa-search"></span>
-              <input type="text" id="s" placeholder="Type keyword to search...">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container logo-wrap">
-      <div class="row pt-5">
-        <div class="col-12 text-center">
-          <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
-          <h1 class="site-logo"><a href="/">Wordify</a></h1>
-        </div>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-expand-md  navbar-light bg-light">
-      <div class="container">
-
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Business</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/category" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="/category">Asia</a>
-                <a class="dropdown-item" href="/category">Europe</a>
-                <a class="dropdown-item" href="/category">Dubai</a>
-                <a class="dropdown-item" href="/category">Africa</a>
-                <a class="dropdown-item" href="/category">South America</a>
-              </div>
-
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/category" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="/category">Lifestyle</a>
-                <a class="dropdown-item" href="/category">Food</a>
-                <a class="dropdown-item" href="/category">Adventure</a>
-                <a class="dropdown-item" href="/category">Travel</a>
-                <a class="dropdown-item" href="/category">Business</a>
-              </div>
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact</a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- END header -->
+    <#include "/templates/web/fragments/header.ftl"/>
 
   <section class="site-section py-lg">
     <div class="container">
@@ -104,26 +27,9 @@
           <a class="category mb-5" href="#">Food</a> <a class="category mb-5" href="#">Travel</a>
 
           <div class="post-content-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam quas inventore, ut iure iste modi eos adipisci ad ea itaque labore earum autem nobis et numquam, minima eius. Nam eius, non unde ut aut sunt eveniet rerum repellendus porro.</p>
-            <p>Sint ab voluptates itaque, ipsum porro qui obcaecati cumque quas sit vel. Voluptatum provident id quis quo. Eveniet maiores perferendis officia veniam est laborum, expedita fuga doloribus natus repellendus dolorem ab similique sint eius cupiditate necessitatibus, magni nesciunt ex eos.</p>
-            <p>Quis eius aspernatur, eaque culpa cumque reiciendis, nobis at earum assumenda similique ut? Aperiam vel aut, ex exercitationem eos consequuntur eaque culpa totam, deserunt, aspernatur quae eveniet hic provident ullam tempora error repudiandae sapiente illum rerum itaque voluptatem. Commodi, sequi.</p>
-            <div class="row mb-5">
-              <div class="col-md-12 mb-4">
-                <img src="/static-assets/images/img_7.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="col-md-6 mb-4">
-                <img src="/static-assets/images/img_9.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="col-md-6 mb-4">
-                <img src="/static-assets/images/img_11.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-            </div>
-            <p>Quibusdam autem, quas molestias recusandae aperiam molestiae modi qui ipsam vel. Placeat tenetur veritatis tempore quos impedit dicta, error autem, quae sint inventore ipsa quidem. Quo voluptate quisquam reiciendis, minus, animi minima eum officia doloremque repellat eos, odio doloribus cum.</p>
-            <p>Temporibus quo dolore veritatis doloribus delectus dolores perspiciatis recusandae ducimus, nisi quod, incidunt ut quaerat, magnam cupiditate. Aut, laboriosam magnam, nobis dolore fugiat impedit necessitatibus nisi cupiditate, quas repellat itaque molestias sit libero voluptas eveniet omnis illo ullam dolorem minima.</p>
-            <p>Porro amet accusantium libero fugit totam, deserunt ipsa, dolorem, vero expedita illo similique saepe nisi deleniti. Cumque, laboriosam, porro! Facilis voluptatem sequi nulla quidem, provident eius quos pariatur maxime sapiente illo nostrum quibusdam aliquid fugiat! Earum quod fuga id officia.</p>
-            <p>Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?</p>
+              <#list contentModel.content_o.item as component>
+                  <@renderComponent component=component />
+              </#list>
           </div>
 
 
@@ -404,104 +310,7 @@
   </section>
   <!-- END section -->
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-4">
-          <h3>About Us</h3>
-          <p class="mb-4">
-            <img src="/static-assets/images/img_1.jpg" alt="Image placeholder" class="img-fluid">
-          </p>
-
-          <p>Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum inventore reiciendis. <a href="#">Read More</a></p>
-        </div>
-        <div class="col-md-6 ml-auto">
-          <div class="row">
-            <div class="col-md-7">
-              <h3>Latest Post</h3>
-              <div class="post-entry-sidebar">
-                <ul>
-                  <li>
-                    <a href="">
-                      <img src="/static-assets/images/img_6.jpg" alt="Image placeholder" class="mr-4">
-                      <div class="text">
-                        <h4>How to Find the Video Games of Your Youth</h4>
-                        <div class="post-meta">
-                          <span class="mr-2">March 15, 2018 </span> &bullet;
-                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="/static-assets/images/img_3.jpg" alt="Image placeholder" class="mr-4">
-                      <div class="text">
-                        <h4>How to Find the Video Games of Your Youth</h4>
-                        <div class="post-meta">
-                          <span class="mr-2">March 15, 2018 </span> &bullet;
-                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="/static-assets/images/img_4.jpg" alt="Image placeholder" class="mr-4">
-                      <div class="text">
-                        <h4>How to Find the Video Games of Your Youth</h4>
-                        <div class="post-meta">
-                          <span class="mr-2">March 15, 2018 </span> &bullet;
-                          <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-
-            <div class="col-md-4">
-
-              <div class="mb-5">
-                <h3>Quick Links</h3>
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Travel</a></li>
-                  <li><a href="#">Adventure</a></li>
-                  <li><a href="#">Courses</a></li>
-                  <li><a href="#">Categories</a></li>
-                </ul>
-              </div>
-
-              <div class="mb-5">
-                <h3>Social</h3>
-                <ul class="list-unstyled footer-social">
-                  <li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
-                  <li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
-                  <li><a href="#"><span class="fa fa-instagram"></span> Instagram</a></li>
-                  <li><a href="#"><span class="fa fa-vimeo"></span> Vimeo</a></li>
-                  <li><a href="#"><span class="fa fa-youtube-play"></span> Youtube</a></li>
-                  <li><a href="#"><span class="fa fa-snapchat"></span> Snapshot</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p class="small">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- END footer -->
+    <#include "/templates/web/fragments/footer.ftl"/>
 
 </div>
 

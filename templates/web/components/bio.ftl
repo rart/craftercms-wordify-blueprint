@@ -1,5 +1,5 @@
 <div class="bio text-center">
-  <img src="${contentModel.profilePic_s}" alt="Image Placeholder" class="img-fluid">
+  <img src="${contentModel.profilePic_s}" alt="" class="img-fluid">
   <div class="bio-body">
     <h2>${contentModel.name_s}</h2>
     <p>${contentModel.bio_t}</p>
