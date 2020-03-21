@@ -308,7 +308,7 @@
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
-            <#include "/templates/web/components/bio.ftl"/>
+            <@renderComponent component=contentModel.bios_o.item />
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
