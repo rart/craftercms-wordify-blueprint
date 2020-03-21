@@ -316,7 +316,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>images,responsiveColumns,richTextSections</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -383,6 +383,45 @@
 						<property>
 							<name>useSearch</name>
 							<value>false</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>embedded-content</type>
+					<id>images</id>
+					<title>Images</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>contentType</name>
+							<value>/component/image</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>embedded-content</type>
+					<id>responsiveColumns</id>
+					<title>Responsive Columns</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>contentType</name>
+							<value>/component/responsive_columns</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>embedded-content</type>
+					<id>richTextSections</id>
+					<title>Rich Text Sections</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>contentType</name>
+							<value>/component/rich_text</value>
 								<type>undefined</type>
 						</property>
 					</properties>
