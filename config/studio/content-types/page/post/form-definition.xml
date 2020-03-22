@@ -480,7 +480,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value></value>
+							<value>,/component/bio</value>
 							<type>contentTypes</type>
 						</property>
 						<property>
