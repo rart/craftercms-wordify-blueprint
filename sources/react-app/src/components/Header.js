@@ -8,10 +8,10 @@ export default function Header() {
         <div className="container">
           <div className="row">
             <div className="col-9 social">
-              <a href="/"><span className="fa fa-twitter"></span></a>
-              <a href="/"><span className="fa fa-facebook"></span></a>
-              <a href="/"><span className="fa fa-instagram"></span></a>
-              <a href="/"><span className="fa fa-youtube-play"></span></a>
+              <a href="/"><span className="fa fa-twitter"/></a>
+              <a href="/"><span className="fa fa-facebook"/></a>
+              <a href="/"><span className="fa fa-instagram"/></a>
+              <a href="/"><span className="fa fa-youtube-play"/></a>
             </div>
             <div className="col-3 search-top">
               <form action="#" className="search-top-form">
