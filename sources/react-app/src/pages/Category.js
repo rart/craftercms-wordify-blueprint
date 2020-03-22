@@ -24,7 +24,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -42,7 +42,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -60,7 +60,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -78,7 +78,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -96,7 +96,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -114,7 +114,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -132,7 +132,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -150,7 +150,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span> •
+                                                             alt=""/> Colorlib</span> •
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="mr-2">Food</span> •
@@ -169,7 +169,7 @@ export default function () {
                       <span className="text">
                         <div className="post-meta">
                           <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt="Colorlib"/> Colorlib</span>•
+                                                             alt=""/> Colorlib</span>•
                           <span className="mr-2">March 15, 2018 </span> •
                           <span className="mr-2">Food</span> •
                           <span className="ml-2"><span className="fa fa-comments"/> 3</span>
@@ -216,7 +216,7 @@ export default function () {
               
               <div className="sidebar-box">
                 <div className="bio text-center">
-                  <img src="/static-assets/images/person_2.jpg" alt="Image Placeholder" className="img-fluid"/>
+                  <img src="/static-assets/images/person_2.jpg" alt="" className="img-fluid"/>
                     <div className="bio-body">
                       <h2>Craig David</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt
@@ -239,7 +239,7 @@ export default function () {
                   <ul>
                     <li>
                       <a href="/">
-                        <img src="/static-assets/images/img_2.jpg" alt="Image placeholder" className="mr-4"/>
+                        <img src="/static-assets/images/img_2.jpg" alt="" className="mr-4"/>
                           <div className="text">
                             <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                             <div className="post-meta">
@@ -250,7 +250,7 @@ export default function () {
                     </li>
                     <li>
                       <a href="/">
-                        <img src="/static-assets/images/img_4.jpg" alt="Image placeholder" className="mr-4"/>
+                        <img src="/static-assets/images/img_4.jpg" alt="" className="mr-4"/>
                           <div className="text">
                             <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                             <div className="post-meta">
@@ -261,7 +261,7 @@ export default function () {
                     </li>
                     <li>
                       <a href="/">
-                        <img src="/static-assets/images/img_12.jpg" alt="Image placeholder" className="mr-4"/>
+                        <img src="/static-assets/images/img_12.jpg" alt="" className="mr-4"/>
                           <div className="text">
                             <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                             <div className="post-meta">

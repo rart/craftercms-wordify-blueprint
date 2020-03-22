@@ -13,7 +13,7 @@ export default function (props) {
             <div class="col-md-12 col-lg-8 main-content">
               <img src={contentModel.mainImage_s} alt="" class="img-fluid mb-5"/>
                 <div class="post-meta">
-                  <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib" class="mr-2"/> Colorlib</span>&bullet;
+                  <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="" class="mr-2"/> Colorlib</span>&bullet;
                   <span class="mr-2">{contentModel.createdDate_dt}</span> &bullet;
                   <span class="ml-2"><span class="fa fa-comments"/> 3</span>
                 </div>
@@ -35,7 +35,7 @@ export default function (props) {
             <ul class="comment-list">
               <li class="comment">
                 <div class="vcard">
-                  <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                  <img src="/static-assets/images/person_1.jpg" alt=""/>
                 </div>
                 <div class="comment-body">
                   <h3>Jean Doe</h3>
@@ -47,7 +47,7 @@ export default function (props) {
 
               <li class="comment">
                 <div class="vcard">
-                  <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                  <img src="/static-assets/images/person_1.jpg" alt=""/>
                 </div>
                 <div class="comment-body">
                   <h3>Jean Doe</h3>
@@ -59,7 +59,7 @@ export default function (props) {
                 <ul class="children">
                   <li class="comment">
                     <div class="vcard">
-                      <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                      <img src="/static-assets/images/person_1.jpg" alt=""/>
                     </div>
                     <div class="comment-body">
                       <h3>Jean Doe</h3>
@@ -72,7 +72,7 @@ export default function (props) {
                     <ul class="children">
                       <li class="comment">
                         <div class="vcard">
-                          <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                          <img src="/static-assets/images/person_1.jpg" alt=""/>
                         </div>
                         <div class="comment-body">
                           <h3>Jean Doe</h3>
@@ -84,7 +84,7 @@ export default function (props) {
                         <ul class="children">
                           <li class="comment">
                             <div class="vcard">
-                              <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                              <img src="/static-assets/images/person_1.jpg" alt=""/>
                             </div>
                             <div class="comment-body">
                               <h3>Jean Doe</h3>
@@ -102,7 +102,7 @@ export default function (props) {
 
               <li class="comment">
                 <div class="vcard">
-                  <img src="/static-assets/images/person_1.jpg" alt="Image placeholder"/>
+                  <img src="/static-assets/images/person_1.jpg" alt=""/>
                 </div>
                 <div class="comment-body">
                   <h3>Jean Doe</h3>
@@ -166,7 +166,7 @@ export default function (props) {
             <ul>
               <li>
                 <a href="/">
-                  <img src="/static-assets/images/img_1.jpg" alt="Image placeholder" class="mr-4"/>
+                  <img src="/static-assets/images/img_1.jpg" alt="" class="mr-4"/>
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -177,7 +177,7 @@ export default function (props) {
               </li>
               <li>
                 <a href="/">
-                  <img src="/static-assets/images/img_1.jpg" alt="Image placeholder" class="mr-4"/>
+                  <img src="/static-assets/images/img_1.jpg" alt="" class="mr-4"/>
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -188,7 +188,7 @@ export default function (props) {
               </li>
               <li>
                 <a href="/">
-                  <img src="/static-assets/images/img_1.jpg" alt="Image placeholder" class="mr-4"/>
+                  <img src="/static-assets/images/img_1.jpg" alt="" class="mr-4"/>
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -247,7 +247,7 @@ export default function (props) {
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-4">
-          <a href="/" class="a-block sm d-flex align-items-center height-md" style="background-image: url('/static-assets/images/img_2.jpg'); ">
+          <a href="/" class="a-block sm d-flex align-items-center height-md" style={{ backgroundImage: `url('/static-assets/images/img_2.jpg')` }}>
             <div class="text">
               <div class="post-meta">
                 <span class="category">Lifestyle</span>
@@ -259,7 +259,7 @@ export default function (props) {
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a href="/" class="a-block sm d-flex align-items-center height-md" style="background-image: url('/static-assets/images/img_3.jpg'); ">
+          <a href="/" class="a-block sm d-flex align-items-center height-md" style={{ backgroundImage: `url('/static-assets/images/img_3.jpg')` }}>
             <div class="text">
               <div class="post-meta">
                 <span class="category">Travel</span>
@@ -271,7 +271,7 @@ export default function (props) {
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a href="/" class="a-block sm d-flex align-items-center height-md" style="background-image: url('/static-assets/images/img_4.jpg'); ">
+          <a href="/" class="a-block sm d-flex align-items-center height-md" style={{ backgroundImage: `url('/static-assets/images/img_4.jpg')` }}>
             <div class="text">
               <div class="post-meta">
                 <span class="category">Food</span>

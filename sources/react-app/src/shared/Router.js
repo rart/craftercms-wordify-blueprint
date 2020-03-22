@@ -26,26 +26,28 @@ function DynamicRoute(props) {
 
   const { match } = props;
   const url = match.url;
-  const [Component, setComponent] = useState(() => CircularProgressSpinner);
+  const [state, setState] = useState({ content: null, component: CircularProgressSpinner });
+  const { component: Component } = state;
 
   useEffect(() => {
-      let destroyed = false;
-      fetchQuery(
-        byUrlQuery.params,
-        { url: `.*${url === '/' ? 'website/index' : url}.*` }
-      ).then(({ data }) => {
-        if (!destroyed) {
-          const content = parseDescriptor(data.content.items?.[0]);
-          if (!content) {
-            setComponent(NotFound);
-          } else {
-            setComponent(() => (ContentTypeMap[content.craftercms.contentTypeId] || NotDeveloped));
-          }
-        }
-      });
-      return () => {
-        destroyed = true;
+    let destroyed = false;
+    fetchQuery(
+      byUrlQuery.params,
+      { url: `.*${url === '/' ? 'website/index' : url}.*` }
+    ).then(({ data }) => {
+      if (!destroyed) {
+        const content = parseDescriptor(data.content.items?.[0]);
+        setState({
+          content,
+          component: content
+            ? (ContentTypeMap[content.craftercms.contentTypeId] || NotDeveloped)
+            : NotFound
+        });
       }
+    });
+    return () => {
+      destroyed = true;
+    };
   }, [url]);
 
   // return (
@@ -57,7 +59,7 @@ function DynamicRoute(props) {
   //         return <NotFound />;
   //       } else {
   //         // console.log(content, props.content);
-  //         return 'Hello';
+  //         return 'ToDo';
   //       }
   //     })}
   //     environment={environment}
@@ -65,9 +67,9 @@ function DynamicRoute(props) {
   //   />
   // );
 
-  // (Component === NotDeveloped) && console.error(
-  //   `The "{contentTypeId}" content type is not mapped to any React component on the App.`
-  // );
+  (Component === NotDeveloped) && console.error(
+    `The "{contentTypeId}" content type is not mapped to any React component on the App.`
+  );
 
   return <Component {...props} />;
 
