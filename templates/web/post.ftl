@@ -20,7 +20,7 @@
           <img src="${contentModel.mainImage_s}" alt="" class="img-fluid mb-5">
           <div class="post-meta">
             <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib" class="mr-2"> Colorlib</span>&bullet;
-            <span class="mr-2">March 15, 2018 </span> &bullet;
+            <span class="mr-2">${contentModel.createdDate_dt?date}</span> &bullet;
             <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
           </div>
           <h1 class="mb-4">${contentModel.headline_s}</h1>
@@ -167,20 +167,9 @@
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
-            <div class="bio text-center">
-              <img src="/static-assets/images/person_2.jpg" alt="Image Placeholder" class="img-fluid">
-              <div class="bio-body">
-                <h2>Craig David</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
-                <p><a href="#" class="btn btn-primary btn-sm rounded">Read my bio</a></p>
-                <p class="social">
-                  <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                  <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                  <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
-                  <a href="#" class="p-2"><span class="fa fa-youtube-play"></span></a>
-                </p>
-              </div>
-            </div>
+            <#if contentModel.authorBio_o?? && contentModel.authorBio_o.item??>
+              <@renderComponent component=contentModel.authorBio_o.item />
+            </#if>
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">

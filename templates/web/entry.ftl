@@ -16,56 +16,11 @@
       <div class="row">
         <div class="col-md-12">
 
-          <div class="owl-carousel owl-theme home-slider">
-            <div>
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_1.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Food</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_2.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Travel</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="a-block d-flex align-items-center height-lg" style="background-image: url('/static-assets/images/img_3.jpg'); ">
-                <div class="text half-to-full">
-                  <span class="category mb-5">Sports</span>
-                  <div class="post-meta">
-
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                    <span class="mr-2">March 15, 2018 </span> &bullet;
-                    <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-
-                  </div>
-                  <h3>How to Find the Video Games of Your Youth</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta eaque ipsa laudantium!</p>
-                </div>
-              </a>
-            </div>
-          </div>
+            <#if contentModel.slider_o?? && contentModel.slider_o.item??>
+                <#list contentModel.slider_o.item as slider>
+                    <@renderComponent component=slider />
+                </#list>
+            </#if>
 
         </div>
       </div>
@@ -87,11 +42,13 @@
         <div class="col-md-12 col-lg-8 main-content">
           <div class="row">
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_5.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -100,11 +57,13 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_6.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -114,11 +73,13 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_7.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -127,11 +88,13 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_8.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -141,11 +104,13 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_9.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -154,11 +119,13 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_10.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -168,11 +135,13 @@
             </div>
 
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_11.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -181,11 +150,13 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
+                 class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_12.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
+                      Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
@@ -212,10 +183,6 @@
           </div>
 
 
-
-
-
-
         </div>
 
         <!-- END main-content -->
@@ -231,7 +198,7 @@
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
-            <@renderComponent component=contentModel.bios_o.item />
+              <@renderComponent component=contentModel.bios_o.item />
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
@@ -312,12 +279,17 @@
     </div>
   </section>
 
-  <#include "/templates/web/fragments/footer.ftl"/>
+    <#include "/templates/web/fragments/footer.ftl"/>
 
 </div>
 
 <!-- loader -->
-<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+<div id="loader" class="show fullscreen">
+  <svg class="circular" width="48px" height="48px">
+    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" />
+  </svg>
+</div>
 
 <#include "/templates/web/fragments/bottom_include.ftl"/>
 </body>
