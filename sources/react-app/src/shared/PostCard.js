@@ -20,7 +20,7 @@ export default function (props) {
       slug,
       // pageTitle_s,
       // pageDescription_s,
-      authorBio_o,
+      // authorBio_o,
       authorBio_o: [{
         name_s: authorName,
         profilePic_s: authorAvatarUrl

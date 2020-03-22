@@ -30,7 +30,7 @@ const translations = defineMessages({
 // );
 
 export default function (props) {
-  const { model, posts } = props;
+  const { /*model,*/ posts } = props;
   const { formatMessage } = useIntl();
   return (
     <BaseLayout>
