@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-03-21T11:29:30.420Z</createdDate>
 	<createdDate_dt>2020-03-21T11:29:30.420Z</createdDate_dt>
-	<lastModifiedDate>2020-03-21T18:15:46.505Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-21T18:15:46.505Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-22T07:36:08.796Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-22T07:36:08.796Z</lastModifiedDate_dt>
 	<mainImage_s>/static-assets/images/img_12.jpg</mainImage_s>
 	<pageTitle_s>Cool New Way for Men to Wear Socks and Sandals</pageTitle_s>
 	<headline_s>There’s a Cool New Way for Men to Wear Socks and S</headline_s>
@@ -174,4 +174,9 @@
       </component>
 	</item></content_o>
 	<blurb_t>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt</blurb_t>
+	<authorBio_o item-list="true">	<item datasource="bios">	<key>/component/bio/f1981a79-3671-cdab-d679-1d0e80f6fce7.xml</key>
+	<value>Meagan Smith</value>
+	<include>/component/bio/f1981a79-3671-cdab-d679-1d0e80f6fce7.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></authorBio_o>
 </page>
