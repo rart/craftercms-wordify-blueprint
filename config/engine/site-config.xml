@@ -22,12 +22,12 @@
 <site>
   <version>2</version>
   <!--
-  SPA Config:
+  SPA Config: -->
   <spa>
     <enabled>true</enabled>
     <viewName>/</viewName>
   </spa>
-  -->
+  <!---->
   <!-- CORS Properties -->
   <cors>
     <enable>true</enable>
