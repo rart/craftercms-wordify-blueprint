@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/category</content-type>
-	<content-type>/page/category</content-type>
 	<display-template>/templates/web/category.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
