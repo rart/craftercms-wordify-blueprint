@@ -550,12 +550,12 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/components/bio</value>
+							<value>/site/website/components/bios</value>
 								<type>undefined</type>
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/components</value>
+							<value>/site/website/components</value>
 								<type>undefined</type>
 						</property>
 						<property>
