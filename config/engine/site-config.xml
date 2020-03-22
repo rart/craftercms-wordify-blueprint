@@ -25,7 +25,7 @@
   SPA Config: -->
   <spa>
     <enabled>true</enabled>
-    <viewName>/</viewName>
+    <viewName>/template/web/app.ftl</viewName>
   </spa>
   <!---->
   <!-- CORS Properties -->
