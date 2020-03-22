@@ -32,15 +32,18 @@ function DynamicRoute(props) {
   useEffect(() => {
     let destroyed = false;
     fetchQuery(
-      byUrlQuery.params,
-      { url: `.*${url === '/' ? 'website/index' : url}.*` }
+      { text: byUrlQuery.params.text.replace(/__typename/g, '') },
+      {
+        url: `.*${url === '/' ? 'website/index' : url}.*`
+      }
     ).then(({ data }) => {
       if (!destroyed) {
-        const content = parseDescriptor(data.content.items?.[0]);
+        const model = parseDescriptor(data.content.items?.[0]);
+        const posts = parseDescriptor(data.posts.items);
         setState({
-          content,
-          component: content
-            ? (ContentTypeMap[content.craftercms.contentTypeId] || NotDeveloped)
+          content: { model, posts },
+          component: model
+            ? (ContentTypeMap[model.craftercms.contentTypeId] || NotDeveloped)
             : NotFound
         });
       }
@@ -71,7 +74,7 @@ function DynamicRoute(props) {
     `The "{contentTypeId}" content type is not mapped to any React component on the App.`
   );
 
-  return <Component {...props} />;
+  return <Component {...state.content} {...props} />;
 
 }
 
@@ -79,7 +82,6 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={ContentTypeMap['/page/entry']} />
         <Route path="/*" component={DynamicRoute} />
       </Switch>
     </BrowserRouter>

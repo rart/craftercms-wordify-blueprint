@@ -3,6 +3,7 @@ import BaseLayout from '../shared/BaseLayout';
 import Bio from '../components/Bio';
 import Slider from '../components/Slider';
 import { defineMessages, FormattedMessage, useIntl } from 'react-intl';
+import PostCard from '../shared/PostCard';
 // import environment from '../relayEnvironment';
 // import graphql from 'babel-plugin-relay/macro';
 // import { parseDescriptor } from '@craftercms/content';
@@ -28,7 +29,8 @@ const translations = defineMessages({
 //   />
 // );
 
-export default function () {
+export default function (props) {
+  const { model, posts } = props;
   const { formatMessage } = useIntl();
   return (
     <BaseLayout>
@@ -44,7 +46,7 @@ export default function () {
       <section className="site-section py-sm">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-12">
               <h2 className="mb-4">
                 <FormattedMessage
                   id="home.latestPostSectionTitle"
@@ -56,38 +58,14 @@ export default function () {
           <div className="row blog-entries">
             <div className="col-md-12 col-lg-8 main-content">
               <div className="row">
-                <div className="col-md-6">
-                  <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
-                     className="blog-entry">
-                    <img src="/static-assets/images/img_5.jpg" alt="" />
-                    <div className="blog-content-body">
-                      <div className="post-meta">
-                        <span className="author mr-2">
-                          <img src="/static-assets/images/person_1.jpg" alt="" /> Colorlib
-                        </span>{' • '}
-                        <span className="mr-2">March 15, 2018</span>{' • '}
-                        <span className="ml-2"><span className="fa fa-comments" /> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
+                {
+                  posts?.map((post) =>
+                    <div className="col-md-6" key={post.craftercms.id}>
+                      <PostCard post={post} />
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-6">
-                  <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
-                     className="blog-entry element-animate" data-animate-effect="fadeIn">
-                    <img src="/static-assets/images/img_6.jpg" alt="" />
-                    <div className="blog-content-body">
-                      <div className="post-meta">
-                        <span className="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="" /> Colorlib</span>{' • '}
-                        <span className="mr-2">March 15, 2018 </span> {' • '}
-                        <span className="ml-2"><span className="fa fa-comments" /> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
+                  )
+                }
               </div>
-
               <div className="row mt-5">
                 <div className="col-md-12 text-center">
                   <nav aria-label="Page navigation" className="text-center">
@@ -104,7 +82,6 @@ export default function () {
                 </div>
               </div>
             </div>
-
             <div className="col-md-12 col-lg-4 sidebar">
               <div className="sidebar-box search-form-wrap">
                 <form action="#" className="search-form">
@@ -119,11 +96,9 @@ export default function () {
                   </div>
                 </form>
               </div>
-
               <div className="sidebar-box">
                 <Bio />
               </div>
-
               <div className="sidebar-box">
                 <h3 className="heading">
                   <FormattedMessage

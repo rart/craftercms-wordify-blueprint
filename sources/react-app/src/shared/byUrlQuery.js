@@ -58,6 +58,8 @@ graphql`
 
 graphql`
   fragment byUrlQueryPostPage on page_post {
+    ...byUrlQueryContentItemFields
+    slug: localId(transform: "storeUrlToRenderUrl")
     pageTitle_s
     pageDescription_s
     authorBio_o {
@@ -65,6 +67,7 @@ graphql`
         key
         component {
           name_s
+          profilePic_s
         }
       }
     }
@@ -89,7 +92,7 @@ graphql`
     contentTypeId: content__type
     dateCreated: createdDate_dt
     dateModified: lastModifiedDate_dt
-    label:internal__name
+    label: internal__name
   }
 `;
 
@@ -109,7 +112,7 @@ graphql`
 `;
 
 const byUrlQuery = graphql`
-  query byUrlQuery($url: String, $skipContentType: Boolean = true) {
+  query byUrlQuery($url: String, $skipContentType: Boolean = true, $includePosts: Boolean = true) {
     content: contentItems {
       total
       items {
@@ -138,6 +141,12 @@ const byUrlQuery = graphql`
         ...on page_post {
           ...byUrlQueryPostPage
         }
+      }
+    }
+    posts: page_post(limit: 8) @include(if: $includePosts) {
+      total
+      items {
+        ...byUrlQueryPostPage
       }
     }
   }

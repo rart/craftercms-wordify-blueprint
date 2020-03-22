@@ -15,8 +15,8 @@ export default function Header() {
             </div>
             <div className="col-3 search-top">
               <form action="#" className="search-top-form">
-                <span className="icon fa fa-search"/>
-                <input type="text" id="s" placeholder="Type keyword to search..."/>
+                <span className="icon fa fa-search" />
+                <input type="text" id="s" placeholder="Type keyword to search..." />
               </form>
             </div>
           </div>
@@ -46,8 +46,15 @@ export default function Header() {
                 <Link className="nav-link" to="/">Business</Link>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/category" id="dropdown04" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Travel</a>
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="/category"
+                  id="dropdown04"
+                  data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"
+                >
+                  Travel
+                </Link>
                 <div className="dropdown-menu" aria-labelledby="dropdown04">
                   <Link className="dropdown-item" to="/category">Asia</Link>
                   <Link className="dropdown-item" to="/category">Europe</Link>
@@ -59,8 +66,15 @@ export default function Header() {
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/category" id="dropdown05" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">Categories</a>
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="/category"
+                  id="dropdown05"
+                  data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"
+                >
+                  Categories
+                </Link>
                 <div className="dropdown-menu" aria-labelledby="dropdown05">
                   <Link className="dropdown-item" to="/category">Lifestyle</Link>
                   <Link className="dropdown-item" to="/category">Food</Link>
@@ -82,5 +96,5 @@ export default function Header() {
         </div>
       </nav>
     </header>
-);
+  );
 }

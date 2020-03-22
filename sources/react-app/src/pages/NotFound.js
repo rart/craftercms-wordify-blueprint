@@ -1,10 +1,14 @@
 import React from 'react';
+import BaseLayout from '../shared/BaseLayout';
 
 export default function NotFound() {
   return (
-    <section>
-      The page you're looking for does not exist.
-    </section>
+    <BaseLayout>
+      <section style={{ textAlign: 'center', padding: '50px 0' }}>
+        <h1>Not Found</h1>
+        <p>The page you're looking for does not exist.</p>
+      </section>
+    </BaseLayout>
   );
 }
 
