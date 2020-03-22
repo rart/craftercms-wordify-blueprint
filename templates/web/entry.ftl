@@ -28,7 +28,6 @@
 
 
   </section>
-  <!-- END section -->
 
   <section class="site-section py-sm">
     <div class="container">
@@ -41,13 +40,11 @@
         <div class="col-md-12 col-lg-8 main-content">
           <div class="row">
             <div class="col-md-6">
-              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals"
-                 class="blog-entry element-animate" data-animate-effect="fadeIn">
+              <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals" class="blog-entry element-animate" data-animate-effect="fadeIn">
                 <img src="/static-assets/images/img_5.jpg" alt="Image placeholder">
                 <div class="blog-content-body">
                   <div class="post-meta">
-                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib">
-                      Colorlib</span>&bullet;
+                    <span class="author mr-2"><img src="/static-assets/images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
                     <span class="mr-2">March 15, 2018 </span> &bullet;
                     <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                   </div>
