@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Colorlib Wordify &mdash; Minimal Blog Template</title>
     <#include "/templates/web/fragments/head_include.ftl"/>
 </head>
 <body>
@@ -27,11 +26,11 @@
           <a class="category mb-5" href="#">Food</a> <a class="category mb-5" href="#">Travel</a>
 
           <div class="post-content-body">
-            <#if contentModel.content_o?? && contentModel.content_o.item??>
-              <#list contentModel.content_o.item as component>
-                  <@renderComponent component=component />
-              </#list>
-            </#if>
+              <#if contentModel.content_o?? && contentModel.content_o.item??>
+                  <#list contentModel.content_o.item as component>
+                      <@renderComponent component=component />
+                  </#list>
+              </#if>
           </div>
 
 
@@ -167,9 +166,9 @@
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
-            <#if contentModel.authorBio_o?? && contentModel.authorBio_o.item??>
-              <@renderComponent component=contentModel.authorBio_o.item />
-            </#if>
+              <#if contentModel.authorBio_o?? && contentModel.authorBio_o.item??>
+                  <@renderComponent component=contentModel.authorBio_o.item />
+              </#if>
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">

@@ -1,3 +1,4 @@
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,3 +12,5 @@
 <link rel="stylesheet" href="/static-assets/fonts/flaticon/font/flaticon.css">
 <#-- Theme Style: Edit @ sources/scss and build using sass compiler -->
 <link rel="stylesheet" href="/static-assets/css/style.css">
+
+<title>${contentModel.pageTitle_t!"Wordify Crafter CMS Template"}</title>

@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Colorlib Wordify &mdash; Minimal Blog Template</title>
     <#include "/templates/web/fragments/head_include.ftl"/>
 </head>
 <body>
