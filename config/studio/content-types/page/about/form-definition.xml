@@ -301,7 +301,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>richText,image</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
