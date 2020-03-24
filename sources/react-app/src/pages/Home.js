@@ -30,16 +30,26 @@ const translations = defineMessages({
 // );
 
 export default function (props) {
-  const { /*model,*/ posts } = props;
+  const {
+    model: {
+      bios_o,
+      slider_o
+    },
+    posts
+  } = props;
   const { formatMessage } = useIntl();
   return (
     <BaseLayout>
       <section className="site-section pt-5 pb-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <Slider />
-            </div>
+            {
+              slider_o?.map((slider, index) =>
+                <div className="col-md-12" key={index}>
+                  <Slider model={slider} />
+                </div>
+              )
+            }
           </div>
         </div>
       </section>
@@ -49,7 +59,7 @@ export default function (props) {
             <div className="col-md-12">
               <h2 className="mb-4">
                 <FormattedMessage
-                  id="home.latestPostSectionTitle"
+                  id="common.latestPostSectionTitle"
                   defaultMessage="Latest Posts"
                 />
               </h2>
@@ -61,7 +71,7 @@ export default function (props) {
                 {
                   posts?.map((post) =>
                     <div className="col-md-6" key={post.craftercms.id}>
-                      <PostCard post={post} />
+                      <PostCard model={post} />
                     </div>
                   )
                 }
@@ -96,9 +106,13 @@ export default function (props) {
                   </div>
                 </form>
               </div>
-              <div className="sidebar-box">
-                <Bio />
-              </div>
+              {
+                bios_o?.map(bio =>
+                  <div className="sidebar-box" key={bio.craftercms.id}>
+                    <Bio model={bio} />
+                  </div>
+                )
+              }
               <div className="sidebar-box">
                 <h3 className="heading">
                   <FormattedMessage

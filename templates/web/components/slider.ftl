@@ -10,8 +10,7 @@
                         <span class="category mb-5">Food</span>
                         <div class="post-meta">
                             <span class="author mr-2">
-                                <img src="/static-assets/images/person_1.jpg" alt="Colorlib">
-                                Colorlib
+                                <img src="/static-assets/images/person_1.jpg" alt="Colorlib"/> Colorlib
                             </span>&bullet;
                             <span class="mr-2">${post.createdDate_dt?date}</span> &bullet;
                             <span class="ml-2"><span class="fa fa-comments"></span> 3</span>

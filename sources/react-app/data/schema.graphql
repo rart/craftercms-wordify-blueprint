@@ -717,11 +717,15 @@ type craftercms_site {
 
 "About"
 type page_about implements ContentItem & Page {
+  "Bios"
+  bios_o: page_about_bios_o_items
   "The content type of the item"
   content__type(
     "Values used to filter the results"
     filter: StringFilters
   ): String!
+  "Content"
+  content_o: ContentIncludeWrapper
   "The created date of the item"
   createdDate_dt(
     "Values used to filter the results"
@@ -731,6 +735,11 @@ type page_about implements ContentItem & Page {
   file__name(
     "Values used to filter the results"
     filter: TextFilters
+  ): String
+  "Headline"
+  headline_s(
+    "Values used to filter the results"
+    filter: StringFilters
   ): String
   "The name/label of the item in Authoring (can also be used as a navigation label in Delivery)"
   internal__name(
@@ -784,6 +793,22 @@ type page_about implements ContentItem & Page {
     "Values used to filter the results"
     filter: BooleanFilters
   ): Boolean
+}
+
+"Contains the data from another item in the site"
+type page_about_bios_o_flattened_item {
+  "The content of the item"
+  component: component_bio!
+  "The path of the item"
+  key: String!
+  "The name of the item"
+  value: String!
+}
+
+"Wrapper for flattened items"
+type page_about_bios_o_items {
+  "List of flattened items"
+  item: [page_about_bios_o_flattened_item!]
 }
 
 "Query for content-type /page/about"

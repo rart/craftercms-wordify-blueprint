@@ -1,6 +1,7 @@
 import { useEffect, useReducer, useRef } from 'react';
 import { fetchQuery } from '../relayEnvironment';
 import { useGlobalContext } from './context';
+import { useICE } from '@craftercms/ice/esm2015/react';
 
 function reducer(state, nextState) {
   return { ...state, ...nextState };
@@ -41,4 +42,10 @@ export function useNavigation() {
     }
   }, [update, pages, pagesLoading]);
   return pages;
+}
+
+export function usePencil(props) {
+  const { model, parentModelId } = props;
+  const [{ isAuthoring }] = useGlobalContext();
+  return useICE({ model, parentModelId, isAuthoring }).props;
 }

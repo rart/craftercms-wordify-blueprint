@@ -1,5 +1,6 @@
 import graphql from 'babel-plugin-relay/macro';
 
+// Homepage
 graphql`
   fragment byUrlQueryHomepage on page_entry  {
     pageTitle_s
@@ -18,28 +19,48 @@ graphql`
         component {
           ...byUrlQueryContentItemFields
           ...on component_slider {
-            posts_o {
-              item {
-                key
-                # component {
-                #   ...PostPage
-                # }
-              }
-            }
+            ...byUrlQuerySlider
           }
         }
       }
     }
-  }`;
+  }
+`;
 
+// AboutPage
 graphql`
   fragment byUrlQueryAboutPage on page_about {
     pageTitle_s
     pageDescription_s
-
+    headline_s
+    bios_o {
+      item {
+        key
+        component {
+          ...byUrlQueryBioFragment
+        }
+      }
+    }
+    content_o {
+      item {
+        key
+        component {
+          ...on component_rich_text {
+            ...byUrlQueryRichText
+          }
+          ...on component_image {
+            ...byUrlQueryImage
+          }
+          ...on component_responsive_columns {
+            ...byUrlQueryResponsiveColumns
+          }
+        }
+      }
+    }
   }
 `;
 
+// ContactPage
 graphql`
   fragment byUrlQueryContactPage on page_contact {
     pageTitle_s
@@ -48,6 +69,7 @@ graphql`
   }
 `;
 
+// CategoryPage
 graphql`
   fragment byUrlQueryCategoryPage on page_category {
     pageTitle_s
@@ -56,35 +78,44 @@ graphql`
   }
 `;
 
+// PostPage
 graphql`
   fragment byUrlQueryPostPage on page_post {
     ...byUrlQueryContentItemFields
     slug: localId(transform: "storeUrlToRenderUrl")
     pageTitle_s
     pageDescription_s
-    authorBio_o {
-      item {
-        key
-        component {
-          name_s
-          profilePic_s
-        }
-      }
-    }
     blurb_t
+    headline_s
+    mainImage_s
     content_o {
       item {
         key
         component {
-          content__type
+          ...on component_rich_text {
+            ...byUrlQueryRichText
+          }
+          ...on component_image {
+            ...byUrlQueryImage
+          }
+          ...on component_responsive_columns {
+            ...byUrlQueryResponsiveColumns
+          }
         }
       }
     }
-    headline_s
-    mainImage_s
+    authorBio_o {
+      item {
+        key
+        component {
+          ...byUrlQueryBioFragment
+        }
+      }
+    }
   }
 `;
 
+// ContentItemFields
 graphql`
   fragment byUrlQueryContentItemFields on ContentItem {
     guid: objectId
@@ -96,6 +127,7 @@ graphql`
   }
 `;
 
+// BioFragment
 graphql`
   fragment byUrlQueryBioFragment on component_bio {
     guid: objectId
@@ -111,8 +143,67 @@ graphql`
   }
 `;
 
+// RichText
+graphql`
+  fragment byUrlQueryRichText on component_rich_text {
+    ...byUrlQueryContentItemFields
+    content_html_raw
+  }
+`;
+
+// Image
+graphql`
+  fragment byUrlQueryImage on component_image {
+    ...byUrlQueryContentItemFields
+    image_s
+    alternativeText_s
+  }
+`;
+
+// ResponsiveColumns
+graphql`
+  fragment byUrlQueryResponsiveColumns on component_responsive_columns {
+    ...byUrlQueryContentItemFields
+    columns_o {
+      item {
+        columnSize_s
+        content_o {
+          item {
+            key
+            component {
+              ...on component_rich_text {
+                ...byUrlQueryRichText
+              }
+              ...on component_image {
+                ...byUrlQueryImage
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+// Slider
+graphql`
+  fragment byUrlQuerySlider on component_slider {
+    ...byUrlQueryContentItemFields
+    posts_o {
+      item {
+        key
+      }
+    }
+  }
+`;
+
 const byUrlQuery = graphql`
-  query byUrlQuery($url: String, $skipContentType: Boolean = true, $includePosts: Boolean = true) {
+  query byUrlQuery(
+    $url: String, $skipContentType: Boolean = true
+    $includePosts: Boolean = true
+    $postsLimit: Int = 8
+    $postsOffset: Int = 0
+  ) {
     content: contentItems {
       total
       items {
@@ -143,7 +234,7 @@ const byUrlQuery = graphql`
         }
       }
     }
-    posts: page_post(limit: 8) @include(if: $includePosts) {
+    posts: page_post(limit: $postsLimit, offset: $postsOffset) @include(if: $includePosts) {
       total
       items {
         ...byUrlQueryPostPage

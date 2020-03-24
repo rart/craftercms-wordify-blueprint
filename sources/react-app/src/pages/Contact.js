@@ -1,7 +1,9 @@
 import React from 'react';
 import BaseLayout from '../shared/BaseLayout';
+import PopularPostsAside from '../shared/PopularPostsAside';
 
-export default function () {
+export default function (props) {
+  const { posts } = props;
   return (
     <BaseLayout>
       <section className="site-section">
@@ -74,50 +76,7 @@ export default function () {
                 </div>
               </div>
 
-              <div className="sidebar-box">
-                <h3 className="heading">Popular Posts</h3>
-                <div className="post-entry-sidebar">
-                  <ul>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_2.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span> &bullet;
-                              <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_4.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span> &bullet;
-                              <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_12.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span> &bullet;
-                              <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
+              <PopularPostsAside posts={posts} />
 
               <div className="sidebar-box">
                 <h3 className="heading">Categories</h3>
@@ -129,7 +88,6 @@ export default function () {
                   <li><a href="/">Adventure <span>(14)</span></a></li>
                 </ul>
               </div>
-
 
               <div className="sidebar-box">
                 <h3 className="heading">Tags</h3>

@@ -1,7 +1,10 @@
 import React from 'react';
 import BaseLayout from '../shared/BaseLayout';
+import PopularPostsAside from '../shared/PopularPostsAside';
+import PostCard, { LANDSCAPE } from '../shared/PostCard';
 
-export default function () {
+export default function (props) {
+  const { posts } = props;
   return (
     <BaseLayout>
       <section className="site-section pt-5">
@@ -14,175 +17,16 @@ export default function () {
           <div className="row blog-entries">
             <div className="col-md-12 col-lg-8 main-content">
               <div className="row mb-5 mt-5">
-
                 <div className="col-md-12">
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_10.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_11.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_12.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_9.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_8.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_7.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_6.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_5.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span> •
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
-                  <div className="post-entry-horzontal">
-                    <a href="/articles/2020/03/cool-new-way-for-men-to-wear-socks-and-sandals">
-                      <div className="image element-animate-disabled" data-animate-effect="fadeIn"
-                           style={{ backgroundImage: `url(/static-assets/images/img_4.jpg)` }}/>
-                      <span className="text">
-                        <div className="post-meta">
-                          <span className="author mr-2"><img src="/static-assets/images/person_1.jpg"
-                                                             alt=""/> Colorlib</span>•
-                          <span className="mr-2">March 15, 2018 </span> •
-                          <span className="mr-2">Food</span> •
-                          <span className="ml-2"><span className="fa fa-comments"/> 3</span>
-                        </div>
-                        <h2>There’s a Cool New Way for Men to Wear Socks and Sandals</h2>
-                      </span>
-                    </a>
-                  </div>
-                  
-
+                  {
+                    posts?.map((post) =>
+                      <li key={post.craftercms.id}>
+                        <PostCard model={post} format={LANDSCAPE} />
+                      </li>
+                    )
+                  }
                 </div>
               </div>
-
               <div className="row mt-5">
                 <div className="col-md-12 text-center">
                   <nav aria-label="Page navigation" className="text-center">
@@ -198,12 +42,7 @@ export default function () {
                   </nav>
                 </div>
               </div>
-
-
             </div>
-
-            
-
             <div className="col-md-12 col-lg-4 sidebar">
               <div className="sidebar-box search-form-wrap">
                 <form action="#" className="search-form">
@@ -232,48 +71,8 @@ export default function () {
                     </div>
                 </div>
               </div>
-              
-              <div className="sidebar-box">
-                <h3 className="heading">Popular Posts</h3>
-                <div className="post-entry-sidebar">
-                  <ul>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_2.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_4.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <img src="/static-assets/images/img_12.jpg" alt="" className="mr-4"/>
-                          <div className="text">
-                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
-                            <div className="post-meta">
-                              <span className="mr-2">March 15, 2018 </span>
-                            </div>
-                          </div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              
+
+              <PopularPostsAside posts={posts} />
 
               <div className="sidebar-box">
                 <h3 className="heading">Categories</h3>
@@ -305,8 +104,6 @@ export default function () {
                 </ul>
               </div>
             </div>
-            
-
           </div>
         </div>
       </section>

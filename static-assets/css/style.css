@@ -1083,9 +1083,9 @@ textarea.form-control {
           color: #000;
           background: #e3e3e3; }
 
-.post-entry-horzontal {
+.post-entry-horizontal {
   margin-bottom: 30px; }
-  .post-entry-horzontal a {
+  .post-entry-horizontal a {
     overflow: hidden;
     display: table;
     position: relative;
@@ -1093,37 +1093,37 @@ textarea.form-control {
     -webkit-transition: .1s all ease;
     -o-transition: .1s all ease;
     transition: .1s all ease; }
-    .post-entry-horzontal a .image, .post-entry-horzontal a .text {
+    .post-entry-horizontal a .image, .post-entry-horizontal a .text {
       display: table-cell;
       vertical-align: middle; }
       @media (max-width: 767.98px) {
-        .post-entry-horzontal a .image, .post-entry-horzontal a .text {
+        .post-entry-horizontal a .image, .post-entry-horizontal a .text {
           display: block; } }
-    .post-entry-horzontal a .image {
+    .post-entry-horizontal a .image {
       width: 200px;
       background-size: cover;
       background-position: center center; }
       @media (max-width: 767.98px) {
-        .post-entry-horzontal a .image {
+        .post-entry-horizontal a .image {
           width: 100%;
           height: 200px; } }
-    .post-entry-horzontal a .text {
+    .post-entry-horizontal a .text {
       padding: 30px;
       width: calc(100 - 200px);
       border: 1px solid #e6e6e6;
       border-left: none; }
       @media (max-width: 767.98px) {
-        .post-entry-horzontal a .text {
+        .post-entry-horizontal a .text {
           width: 100%;
           height: 200px;
           border: 1px solid #e6e6e6;
           border-top: none; } }
-      .post-entry-horzontal a .text h2 {
+      .post-entry-horizontal a .text h2 {
         font-size: 20px; }
-      .post-entry-horzontal a .text p {
+      .post-entry-horizontal a .text p {
         color: #999999;
         margin-bottom: 30px; }
-    .post-entry-horzontal a:hover {
+    .post-entry-horizontal a:hover {
       top: -3px;
       -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1); }
