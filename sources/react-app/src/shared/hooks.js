@@ -1,7 +1,7 @@
 import { useEffect, useReducer, useRef } from 'react';
 import { fetchQuery } from '../relayEnvironment';
 import { useGlobalContext } from './context';
-import { useICE } from '@craftercms/ice/esm2015/react';
+import { useICE, useDropZone } from '@craftercms/ice/esm2015/react';
 
 function reducer(state, nextState) {
   return { ...state, ...nextState };
@@ -48,4 +48,10 @@ export function usePencil(props) {
   const { model, parentModelId } = props;
   const [{ isAuthoring }] = useGlobalContext();
   return useICE({ model, parentModelId, isAuthoring }).props;
+}
+
+export function useDnD(props) {
+  const { model } = props;
+  const [{ isAuthoring }] = useGlobalContext();
+  return useDropZone({ model, isAuthoring }).props;
 }

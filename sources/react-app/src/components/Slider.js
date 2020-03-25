@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import PostCard, { IMAGE_BACKGROUND } from '../shared/PostCard';
 import { getItem, parseDescriptor } from '@craftercms/content/esm2015';
+import { useGlobalContext } from '../shared/context';
+import { usePencil } from '../shared/hooks';
 
 const D = '{-}'; // divider
 const C = {
@@ -18,6 +20,8 @@ export default function (props) {
       posts_o
     }
   } = props;
+
+  const ice = usePencil(props);
 
   // region "Sample"
 
@@ -89,7 +93,7 @@ export default function (props) {
   }, [posts]);
 
   return (
-    <div className="owl-carousel owl-theme home-slider">
+    <div className="owl-carousel owl-theme home-slider" {...ice}>
       {
         posts?.map(model =>
           <div key={model.craftercms.id}>

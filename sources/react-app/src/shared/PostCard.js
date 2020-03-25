@@ -60,8 +60,8 @@ export default function (props) {
       );
     case LANDSCAPE:
       return (
-        <div className="post-entry-horizontal">
-          <Link to={slug} className={classes?.root} {...ice}>
+        <div className="post-entry-horizontal" {...ice}>
+          <Link to={slug} className={classes?.root}>
             <div className="image" style={{ backgroundImage: `url(${mainImage_s})` }} />
             <span className="text">
               <div className="post-meta">
@@ -94,9 +94,8 @@ export default function (props) {
           to={slug}
           className={`a-block d-flex align-items-center ${classes?.root ?? ''}`}
           style={{ backgroundImage: `url(${mainImage_s})` }}
-          {...ice}
         >
-          <div className={`text ${classes?.innerWrapper}`}>
+          <div className={`text ${classes?.innerWrapper}`} {...ice}>
             <div className="post-meta">
               {
                 tags &&

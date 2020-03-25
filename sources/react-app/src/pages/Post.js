@@ -1,9 +1,12 @@
 import React from 'react';
 import BaseLayout from '../shared/BaseLayout';
-import Bio from '../components/Bio';
 import ContentType from '../shared/ContentType';
 import PopularPostsAside from '../shared/PopularPostsAside';
 import PostCard, { IMAGE_BACKGROUND } from '../shared/PostCard';
+import SidebarCategories from '../shared/SidebarCategories';
+import SidebarTags from '../shared/SidebarTags';
+import SidebarSearch from '../shared/SidebarSearch';
+import SidebarBios from '../shared/SidebarBios';
 
 export default function (props) {
   const { model, posts } = props;
@@ -139,7 +142,6 @@ export default function (props) {
                   </li>
                 </ul>
 
-
                 <div className="comment-form-wrap pt-5">
                   <h3 className="mb-5">Leave a comment</h3>
                   <form action="#" className="p-5 bg-light">
@@ -170,60 +172,19 @@ export default function (props) {
 
             </div>
 
-
             <div className="col-md-12 col-lg-4 sidebar">
-              <div className="sidebar-box search-form-wrap">
-                <form action="#" className="search-form">
-                  <div className="form-group">
-                    <span className="icon fa fa-search" />
-                    <input type="text" className="form-control" id="s" placeholder="Type a keyword and hit enter" />
-                  </div>
-                </form>
-              </div>
 
-              <div className="sidebar-box">
-                {
-                  model.authorBio_o?.map(bio =>
-                    <div className="sidebar-box" key={bio.craftercms.id}>
-                      <Bio model={bio} />
-                    </div>
-                  )
-                }
-              </div>
+              <SidebarSearch/>
+
+              <SidebarBios bios={model.authorBio_o}/>
 
               <PopularPostsAside posts={posts} />
 
-              <div className="sidebar-box">
-                <h3 className="heading">Categories</h3>
-                <ul className="categories">
-                  <li><a href="/">Food <span>(12)</span></a></li>
-                  <li><a href="/">Travel <span>(22)</span></a></li>
-                  <li><a href="/">Lifestyle <span>(37)</span></a></li>
-                  <li><a href="/">Business <span>(42)</span></a></li>
-                  <li><a href="/">Adventure <span>(14)</span></a></li>
-                </ul>
-              </div>
+              <SidebarCategories/>
 
+              <SidebarTags/>
 
-              <div className="sidebar-box">
-                <h3 className="heading">Tags</h3>
-                <ul className="tags">
-                  <li><a href="/">Travel</a></li>
-                  <li><a href="/">Adventure</a></li>
-                  <li><a href="/">Food</a></li>
-                  <li><a href="/">Lifestyle</a></li>
-                  <li><a href="/">Business</a></li>
-                  <li><a href="/">Freelancing</a></li>
-                  <li><a href="/">Travel</a></li>
-                  <li><a href="/">Adventure</a></li>
-                  <li><a href="/">Food</a></li>
-                  <li><a href="/">Lifestyle</a></li>
-                  <li><a href="/">Business</a></li>
-                  <li><a href="/">Freelancing</a></li>
-                </ul>
-              </div>
             </div>
-
 
           </div>
         </div>
@@ -245,8 +206,6 @@ export default function (props) {
             }
           </div>
         </div>
-
-
       </section>
     </BaseLayout>
   );
