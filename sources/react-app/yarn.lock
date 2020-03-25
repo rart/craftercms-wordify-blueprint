@@ -945,46 +945,46 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@craftercms/classes@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@craftercms/classes/-/classes-1.2.1.tgz#60ce188316bd1ecc0d390363438f69b5d4437076"
-  integrity sha512-4FBy6ABsHO3gfOgn+eMnnFww8Uy8bbbuxvwcX0tcvkaMYpxPyCAsOF5Bbli+sgso/7Qv7WznpTIKUkaovW4Wkw==
+"@craftercms/classes@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@craftercms/classes/-/classes-1.2.2.tgz#260b9161f5fac1213740adfa3a834cf2daf86efd"
+  integrity sha512-xIzSiHqm7h6apJZ5uhOTA708AMCIcNnO3+R2mZgYoqfFLKOxFscTfsK4hPHdPfw16wlydoq4qfnEkI6XAg8VJA==
   dependencies:
-    "@craftercms/models" "1.2.1"
-    "@craftercms/utils" "1.2.1"
+    "@craftercms/models" "1.2.2"
+    "@craftercms/utils" "1.2.2"
     tslib "^1.10.0"
     url-search-params-polyfill "^5.0.0"
 
-"@craftercms/content@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@craftercms/content/-/content-1.2.1.tgz#2025654789d02401feb1a764467b73e462c861a7"
-  integrity sha512-AjMPXx3e0yI4GcpJkAzeg1auA1+2DiL6mii74MYiBKlvgcC+56qglvmsgcoMlT6UP2UtEy5u7pbtoNLpONXH3w==
+"@craftercms/content@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@craftercms/content/-/content-1.2.2.tgz#ba29097fa93e91c7702fb6b0c54c9c52356816db"
+  integrity sha512-XEhfJx8HHW0pKNl79wXriu0MQsO/KRBXwynnQqnL75BbtEf4ByE66E9hdxR+p4ErHwWWNRFWFx3wI9MNGiNhdQ==
   dependencies:
-    "@craftercms/classes" "1.2.1"
-    "@craftercms/models" "1.2.1"
-    "@craftercms/utils" "1.2.1"
+    "@craftercms/classes" "1.2.2"
+    "@craftercms/models" "1.2.2"
+    "@craftercms/utils" "1.2.2"
     rxjs "^6.5.4"
     tslib "^1.10.0"
 
-"@craftercms/ice@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@craftercms/ice/-/ice-1.2.1.tgz#e19f45005f9e771b69ac293cab47f892c2b17f45"
-  integrity sha512-w2F5PwZO8l2nukbI2GlK/Ky+FJmXLwFD9Rw4yhVuU1Whxm6N2H2ocC3BeiTXc10oBBhd3n0cgh0B63LKteZjOg==
+"@craftercms/ice@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@craftercms/ice/-/ice-1.2.2.tgz#2538ec5cedb06a7d913be01e6743cca114fb9493"
+  integrity sha512-1Ung46rNKQX7EoUBbFxtvWHcqwmB9KbUx2TLFVQYN709/KCGTOy0L7PSQHoL/NozES4Junpa1mQaFMn5oRtDSA==
   dependencies:
-    "@craftercms/models" "1.2.1"
+    "@craftercms/models" "1.2.2"
     tslib "^1.10.0"
 
-"@craftercms/models@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@craftercms/models/-/models-1.2.1.tgz#3eb93f2ee59e36c101f7add25aafebcfcc04bed5"
-  integrity sha512-DUl+uW3k0i7HYl06DKuCmHCCuSG7z22qzd69UBBAdFiynJsPsjEeMZI90Z4pqH218ksDHMFFJpyKjxemSLi12w==
+"@craftercms/models@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@craftercms/models/-/models-1.2.2.tgz#47fac94cafb6333679fd6c5e885273f21dd78a45"
+  integrity sha512-Vu7fcT9erIF07u8vjy5wjy5/EL3yWVLE6uMQVXzqYfiT/A66cgcq9nl7vDamuesiTc+znn8dtvx1/bpGq2W03Q==
   dependencies:
     tslib "^1.10.0"
 
-"@craftercms/utils@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@craftercms/utils/-/utils-1.2.1.tgz#5b83463fb64e950237ab1c69de0ca5e18d6d1d5c"
-  integrity sha512-0ZxP4fcecwZYn8hD3oO7erQtiXbx1aNlkDAsba21jKJquQYWwR9/Mzb1uerGPaLQij8GGwYetwui2pyExwcS6g==
+"@craftercms/utils@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@craftercms/utils/-/utils-1.2.2.tgz#d9437b98957d85ee1a469bcfb319cb20ceea2fa8"
+  integrity sha512-XAM/X45rLLrR1kJvRCYEOAatcxLwxHa6Ys57sMYX0AyRo8YhYmiiMiu0m5G3PZKeUtLNW/P5TtQYbzz0ePod7g==
   dependencies:
     tslib "^1.10.0"
 
