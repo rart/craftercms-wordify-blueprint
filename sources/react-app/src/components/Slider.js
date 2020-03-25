@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PostCard, { IMAGE_BACKGROUND } from '../shared/PostCard';
 import { getItem, parseDescriptor } from '@craftercms/content/esm2015';
-import { useGlobalContext } from '../shared/context';
 import { usePencil } from '../shared/hooks';
 
 const D = '{-}'; // divider
@@ -88,7 +87,7 @@ export default function (props) {
       });
       return () => {
         $carousel.owlCarousel('destroy');
-      }
+      };
     }
   }, [posts]);
 
