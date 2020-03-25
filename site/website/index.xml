@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2020-03-25T09:56:24.518Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-25T09:56:24.518Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-25T09:58:34.941Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-25T09:58:34.941Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bios_o item-list="true">	<item datasource="bios">	<key>/site/components/bios/f4b2297e-af30-a288-6b54-1e838a0eadf5.xml</key>
 	<value>David Craig Bio</value>
@@ -54,4 +54,5 @@
 	</item></slider_o>
 	<pageTitle_s>Crafter CMS Wordify</pageTitle_s>
 	<pageDescription_s>Colorlib's Wordify template as a Crafter CMS site</pageDescription_s>
+	<navLabel>Home</navLabel>
 </page>
